@@ -35,6 +35,12 @@ module.exports = {
 						}
 					}
 				}]
+			},
+			{
+				test: /\.(jpe?g|svg)$/,
+				use: [{
+					loader: 'file-loader'
+				}]
 			}
 		]
 	}

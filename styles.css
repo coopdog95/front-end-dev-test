@@ -1,0 +1,173 @@
+
+body {
+	width: 100%;
+
+}
+
+.main {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.container-fluid {
+	margin-left: 0;
+	margin-right: 0;
+	max-height: 370px;
+}
+
+
+
+#block1 {
+	background-color: red;
+	background-image: url("assets/hero.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+	
+	
+}
+
+#block1 h1, h2 {
+	text-align: center;
+	color: white;
+
+}
+
+#welcome-container {
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+
+#logo-container {
+
+	text-align: left;
+	height: 10%;
+	width: auto;
+}
+
+#logo-white {
+	margin-left: 5%;
+	width: 20%;
+	height: auto;
+}
+
+
+
+#block2 {
+	background-color: orange;
+	resize: both;
+}
+
+#text-block {
+	margin-left: 20%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+
+	font-size: 1.3vw;
+	/*padding-bottom: 15%;*/
+	width: 80%;
+	height: 100%;
+	resize: both;
+}
+
+#block2-image {
+	background-image: url("assets/img-1.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+
+
+}
+#block3 {
+	background-color: yellow;
+	background-image: url("assets/banner-1.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+
+}
+
+#block3-info {
+	text-align: left;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	margin-left: 10%;
+	
+
+}
+#block4 {
+	background-color: green;
+}
+
+.icon-container {
+	
+	/*padding-top: 8%;
+	padding-bottom: 8%;*/
+	padding: 4% 10%;
+	padding-left: 2%;
+	background-color: orange;
+	height: 100%;
+	width: auto;
+	resize: both;
+	max-height: 400px;
+
+	
+}
+
+#icon-box {
+
+	/*height: 10%;*/
+	padding: 15% 15%;
+	margin-top: 2%;
+
+	height: 100%;
+	width: auto;
+	background-color: pink;
+	text-align: center;
+}
+#icon-box img {
+	width: 100%;
+	height: auto;
+	padding: 5% 5%;
+	max-height: 50px;
+	max-width: 50px;
+	resize: both;
+	border: 1px solid purple;
+	border-radius: 50%;
+	overflow: none;
+	
+}
+#block5 {
+	background-color: blue;
+	background-image: url("assets/banner-2.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#block5-info {
+	text-align: left;
+	width: 30%;
+	margin-left: 55%;
+	padding-top: 15%;
+}
+#block6 {
+	background-color: purple;
+}
+
+.carouselContainerHeader {
+	text-align: center;
+}
+
+.carouselContainer {
+	padding: 10% 2%;
+}
+
+
+@media screen and (min-width: 900px) {
+	#text-block {
+		font-size: 12px;
+	}
+}
+
+
+
