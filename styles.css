@@ -1,4 +1,7 @@
 
+$myPurple:#603674;
+
+
 body {
 	width: 100%;
 
@@ -8,6 +11,11 @@ body {
 	width: 100%;
 	max-width: 900px;
 	margin: auto;
+
+}
+
+h3 {
+	color: #603674;
 }
 
 .container-fluid {
@@ -15,11 +23,24 @@ body {
 	margin-right: 0;
 	max-height: 370px;
 }
+.col {
+
+	margin: 0;
+}
+
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:visited,
+.btn.btn-primary:focus {
+	color: $myPurple;
+}
+
 
 
 
 #block1 {
-	background-color: red;
+	background-color: white;
 	background-image: url("assets/hero.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -56,14 +77,14 @@ body {
 
 
 #block2 {
-	background-color: orange;
-	resize: both;
+	background-color: white;
+	/*resize: both;*/
 }
 
 #text-block {
 	margin-left: 20%;
 	margin-top: 15%;
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 
 	font-size: 1.3vw;
 	/*padding-bottom: 15%;*/
@@ -72,15 +93,22 @@ body {
 	resize: both;
 }
 
+#text-block a {
+	color: #603674;
+}
+
 #block2-image {
 	background-image: url("assets/img-1.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	display: block;
+	max-height: 100%;
+	max-width: 100%;
 
 
 }
 #block3 {
-	background-color: yellow;
+	background-color: white;
 	background-image: url("assets/banner-1.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -92,74 +120,179 @@ body {
 	padding-top: 15%;
 	padding-bottom: 15%;
 	margin-left: 10%;
-	
 
 }
+
+#block3-info button {
+	margin-left: -1%;
+}
 #block4 {
-	background-color: green;
+	background-color: white;
+	margin: 0;
 }
 
 .icon-container {
 	
 	/*padding-top: 8%;
 	padding-bottom: 8%;*/
-	padding: 4% 10%;
-	padding-left: 2%;
-	background-color: orange;
+	margin: 0;
+
+	background-color: #f5f5f5;
 	height: 100%;
-	width: auto;
-	resize: both;
+	width: 100%;
+	/*resize: both;*/
 	max-height: 400px;
 
 	
 }
 
+#icon-box2 {
+	
+	margin: 2%;
+	padding: 4% 8%;
+	text-align: center;
+}
+
 #icon-box {
 
 	/*height: 10%;*/
-	padding: 15% 15%;
+	/*padding: 15% 15%;
 	margin-top: 2%;
+*/
+	
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+
+	border: 1px solid purple;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+#icon-box img {
+
+	/*border: 1px solid purple;
+	border-radius: 50%;*/
+	
+	display: inline;
+	vertical-align: middle;
+
+	margin: 0 auto;
 
 	height: 100%;
 	width: auto;
-	background-color: pink;
-	text-align: center;
-}
-#icon-box img {
-	width: 100%;
-	height: auto;
-	padding: 5% 5%;
+	margin-top: 17%;
+	overflow: none;
+	/*padding: 5% 5%;*/
 	max-height: 50px;
 	max-width: 50px;
-	resize: both;
-	border: 1px solid purple;
-	border-radius: 50%;
-	overflow: none;
+	/*background-clip: content-box;*/
+	/*border: 1px solid purple;
+	border-radius: 50%;*/
+	
 	
 }
 #block5 {
-	background-color: blue;
+
+	background-color: white;
 	background-image: url("assets/banner-2.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	vertical-align: middle;
 }
 
 #block5-info {
 	text-align: left;
 	width: 30%;
 	margin-left: 55%;
-	padding-top: 15%;
+	padding: 10% 0;
 }
+
+#block5-info h3 {
+	color: #603674;
+}
+
+#block5-info button {
+	margin-left: -1.5%;
+}
+
 #block6 {
-	background-color: purple;
+	padding: 10% 0;
+	background-color: white;
+}
+
+#fiveStars {
+	width: 100%;
+	height: auto;
+	max-width: 120px;
+	color: red;
+}
+
+#footerBlock {
+	background-color: #f5f5f5;
+	padding: 4% 0;
+	text-align: center;
+}
+
+#footerBlock img {
+	max-height: 35px;
+	max-width: 35px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .carouselContainerHeader {
 	text-align: center;
+	color: #603674;
 }
 
 .carouselContainer {
-	padding: 10% 2%;
+	margin: 10% 12%;
+	
+}
+
+.carousel {
+	position: relative;
+	
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+	opacity: 1 !important;
+	color: #603674;
+	/*background: #603674;*/
+	filter: invert(100%);
+}
+
+
+
+ol.carousel-indicators {
+	position: absolute;
+	bottom: 0;
+	margin: 0 3px;
+	left: 0;
+	right: 0;
+	width: auto;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+	float: left;
+	width: 8.5px;
+	height: 8.5px;
+	margin: 0 3px;
+	border-radius: 50%;
+	border: 0;
+	background: rgba(255, 221, 0, 0.7);
+}
+
+ol.carousel-indicators li.active {
+	background: rgba(255, 221, 0, 1);
 }
 
 

@@ -3,13 +3,17 @@
   <head>
     <title>Rooster Grin Front End Dev Test</title>
     <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/css/mdb.min.css"/>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/css/mdb.min.css"/> -->
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -22,7 +26,7 @@
         <div class="container-fluid" id="welcome-container">
           <h1>WELCOME TO</h1>
           <h2>Rooster Grin</h2>
-          <button type="button" class="btn btn-primary" id="button1">BUTTON BUTTON</button>
+          <button type="button" class="btn btn-secondary" id="button1">BUTTON BUTTON</button>
         </div>
       </div>
       <!-- 2) Text then image block -->
@@ -32,7 +36,7 @@
             <div class="container" id="text-block">
               <h3>LOREM IPSUM</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
-              <b>><a href="#"> Lorem Ipsum</a></b>
+              <h6>><a href="#"> Lorem Ipsum</a></h6>
             </div>
           </div>
           <div class="col" id="block2-image">
@@ -44,7 +48,7 @@
       <div class="container-fluid" id="block3">
               <div class="container" id="block3-info">
                 <h3>LOREM IPSUM</h3>
-                <button type="button" class="btn btn-primary" id="button1">BUTTON BUTTON</button>
+                <button type="button" class="btn btn-deep-orange" id="button1">BUTTON BUTTON</button>
               </div>
 
       </div>
@@ -55,37 +59,37 @@
                 <div class="container" id="text-block">
                   <h3>LOREM IPSUM</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <b>><a href="#"> Lorem Ipsum</a></b>
+                  <h6>><a href="#"> Lorem Ipsum</a></h6>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" style="background-color: #f5f5f5">
                 <div class="icon-container">
                   <div class="row">
-                    <div class="col">
-                     <div id="icon-box">
-                      <img src="assets/home-expertise.svg">
+                    <div class="col" id="icon-box2">
+                      <div id="icon-box">
+                        <img src="assets/home-expertise.svg" style="margin-left: 3%">
+                      </div>
                       <p><b>LOREM</b></p>
-                      </div>
                     </div>
-                    <div class="col">
-                     <div id="icon-box">
-                      <img src="assets/home-hygiene.svg">
-                      <p><b>LOREM IPSUM</b></p>
+                    <div class="col" id="icon-box2">
+                      <div id="icon-box">
+                        <img src="assets/home-hygiene.svg">
                       </div>
+                      <p><b>LOREM IPSUM</b></p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col">
-                     <div id="icon-box">
-                      <img src="assets/home-lab.svg">
+                    <div class="col" id="icon-box2">
+                      <div id="icon-box">
+                        <img src="assets/home-lab.svg">
+                      </div>
                       <p><b>LOREM IPSUM</b></p>
-                      </div>
                     </div>
-                    <div class="col">
-                     <div id="icon-box">
-                      <img src="assets/home-retention.svg">
-                      <p><b>LOREM</b></p>
+                    <div class="col" id="icon-box2">
+                      <div id="icon-box">
+                        <img src="assets/home-retention.svg">
                       </div>
+                      <p><b>LOREM</b></p>
                     </div>
                   </div>
                 </div>
@@ -96,21 +100,22 @@
       <!-- 5) image with button block -->
       <div class="container-fluid" id="block5">
                 <div class="container" id="block5-info">
-                  <h3>LOREM IPSUM</h3>
+                  <h3><b>LOREM IPSUM</b></h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <button type="button" class="btn btn-primary" id="button1">BUTTON BUTTON</button>
+                  <button type="button" class="btn btn-deep-orange" id="button1">BUTTON BUTTON</button>
                 </div>
 
       </div>
       <!-- 6) text then carousel block -->
       <div class="container-fluid" id="block6">
-          <div class="row">
+        <div class="row">
           <div class="col">
             <div class="container" id="text-block">
               <h3>LOREM IPSUM DOLOR SIT AMET</h3>
-              <p>O O O O O</p>
+                <img src="assets/fiveStars3.jpg" id="fiveStars">
             </div>
           </div>
+
           <div class="col">
             <div id="carousel1" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -162,11 +167,31 @@
           </div>
         </div>
       </div>
+      <!-- 7) Footer -->
+      <div class="container-fluid" id="footerBlock">
+        <p><b>Follow Us:</b></p>
+        <div class="container" id="followIconHolder">
+          <a href="instagram.com"><img src="assets/instagram.svg"></a>
+          <a href="facebook.com"><img src="assets/facebook.svg"></a>
+        </div>
+      </div>
 
 
 
     </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 
-    <script type="text/javascript" src="bundle.js"></script>
+  <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.5/js/mdb.min.js"></script>
+
+    <!-- <script type="text/javascript" src="bundle.js"></script> -->
   </body>
 </html>
